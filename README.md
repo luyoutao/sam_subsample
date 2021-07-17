@@ -5,7 +5,7 @@ Random sample --num reads (SE) or read pairs (PE) from BAM or SAM
 sam_subsample --inFile input.[bam|sam] --outFile output.bam [--num 5000] [--seed 43] [--help] [--version] [--debug info]
 
 ## Options:
-    -i, --infile FILE   input BAM/SAM, queryname sorted
+    -i, --infile FILE   input BAM/SAM, must be name sorted (@HD SO:queryname)
     -o, --outfile FILE  output BAM
     -n, --num INTEGER   number of reads (read pairs if PE) to downsample
                         (default: 5000)
