@@ -59,7 +59,7 @@ Summary:
 Random sample --num reads (SE) or read pairs (PE) from BAM or SAM
 
 Usage:
-{} --inFile input.[bam|sam] --outFile output.bam [--num 5000] [--seed 43] [--help] [--version] [--debug error|warn|info|debug|trace]",
+{} --infile input.[bam|sam] --outfile output.bam [--num 5000] [--seed 43] [--help] [--version] [--debug error|warn|info|debug|trace]",
 prog);
     println!("{}", opts.usage(&s));
 }
